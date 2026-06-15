@@ -1,0 +1,170 @@
+/* ===== GENERAL ===== */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+
+.text-orange {
+    color: #f26522;
+}
+
+.btn-orange {
+    background: #f26522;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.btn-orange:hover {
+    background: #d9531e;
+    color: white;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.nav-link {
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.nav-link.active {
+    color: #f26522 !important;
+    border-bottom: 3px solid #f26522;
+}
+
+/* ===== HERO ===== */
+.hero {
+    background: #f9f7f4;
+    padding: 80px 0;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1.1;
+}
+
+.hero h1 span {
+    color: #f26522;
+}
+
+.hero p {
+    font-size: 1.4rem;
+    margin: 25px 0;
+}
+
+.hero img {
+    border-radius: 20px;
+}
+
+/* ===== TITULOS ===== */
+section h2 {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+section h2::after {
+    content: "";
+    width: 70px;
+    height: 4px;
+    background: #f26522;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+/* ===== CATEGORIAS ===== */
+.categorias {
+    background: #fff;
+}
+
+.categoria-card {
+    padding: 30px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.categoria-card:hover {
+    transform: translateY(-5px);
+}
+
+.categoria-postres {
+    background: #fdeff2;
+}
+
+.categoria-comidas {
+    background: #fff6df;
+}
+
+.categoria-bebidas {
+    background: #eef8e7;
+}
+
+.categoria-saludables {
+    background: #f3eef8;
+}
+
+.icono {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.categoria-card h5 {
+    font-weight: 700;
+}
+
+/* ===== RECETAS ===== */
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+
+.card img {
+    height: 240px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.card-body p {
+    color: #666;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background: #f7f3ef;
+    margin-top: 50px;
+    padding: 50px 0;
+}
+
+footer h6 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+footer p {
+    color: #555;
+}
+
+footer small {
+    display: block;
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
